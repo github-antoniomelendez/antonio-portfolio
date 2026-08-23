@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Image from "next/image";
 import styles from "./page.module.css";
 
@@ -67,3 +68,28 @@ export default function Home() {
     </div>
   );
 }
+=======
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import About from "../components/About";
+import Skills from "../components/Skills";
+import Projects from "../components/Projects";
+import Experience from "../components/Experience";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+
+export default function Home() {
+  return (
+    <main>
+      <Navbar />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Experience />
+      <Contact />
+      <Footer />
+    </main>
+  );
+}
+>>>>>>> 09b8b01b8cac9f3e200cdb5a156caee7df42fcdf

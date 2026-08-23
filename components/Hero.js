@@ -26,7 +26,7 @@ export default function Hero() {
             Contact Me
           </a>
 
-          <a href="/Resume_AntonioMelendez.pdf" className="btn btn-secondary" download>
+          <a href="/antonio-portfolio/Resume_AntonioMelendez.pdf" className="btn btn-secondary" download>
             Download Resume ↓
           </a>
         </div>
